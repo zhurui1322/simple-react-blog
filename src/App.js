@@ -13,6 +13,6 @@ const App = () => (
       <Route path="/weather_forecaster" component={WeatherForeCaster} />
     </div>
   </BrowserRouter>
-)
+);
 
 export default App;
