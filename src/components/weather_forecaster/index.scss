@@ -1,0 +1,31 @@
+.chart-container {
+  height: 80px;
+}
+.chart-container svg {
+  height: 120px;
+  width: 100%;
+}
+
+td, th {
+   vertical-align: middle !important;
+   text-align: center !important;
+ }
+
+.input-group {
+  margin: 20px 0px;
+}
+
+td:first-of-type, td:first-of-type > div {
+  height:200px;
+  width: 250px;
+}
+
+.title {
+  margin: 20px;
+  text-align: center;
+}
+
+.weather_search_bar {
+  width: 600px;
+  margin: auto;
+}

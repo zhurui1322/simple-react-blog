@@ -1,6 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 import { Sparklines, SparklinesLine, SparklinesReferenceLine } from 'react-sparklines';
+import '../index.css';
 
 function average(data) {
   return _.round(_.sum(data)/data.length);
