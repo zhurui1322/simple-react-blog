@@ -15,6 +15,7 @@ class Home extends Component {
           <Link to='/simple-youtube' style={{ textDecoration: 'none' }}><Button color="primary">Youtube</Button></Link>
           <Link to='/weather_forecaster' style={{ textDecoration: 'none' }}><Button color="primary">Forecaster</Button></Link>
           <Link to='/blog_post' style={{ textDecoration: 'none' }}><Button color="primary">Simple Blog</Button></Link>
+          <Link to='/compass_lex_bot' style={{ textDecoration: 'none' }}><Button color="primary">Upside Lex Bots</Button></Link>
         </div>
       </div>
     );
