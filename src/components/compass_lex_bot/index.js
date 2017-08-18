@@ -4,6 +4,8 @@ import CommandIntents from './components/intents';
 import GiftcardIntents from './components/giftcardIntents';
 import TripChangeRequest from './components/tripRequest';
 import SlackCommand from './components/slack_command';
+import FutureGoal from './components/future_goal';
+import Overview from './components/overview';
 
 import './index.css'
 
@@ -13,23 +15,10 @@ import PlusIcon from '../../assets/plus-icon.png';
 import SlackLogo from '../../assets/slackLogo.png';
 import EqualIcon from '../../assets/equal-icon.png';
 import UpsideBar from '../../assets/upside-bar.png';
-import UpsideLogo from '../../assets/upsideLogo.jpeg'
+import UpsideLogo from '../../assets/upsideLogo.jpeg';
 
+import TheFuture from '../../assets/theFuture.png';
 
-
-const styles = {
-  row: {
-    display: 'flex',
-    justifyContent: 'center',
-  },
-  avatar: {
-    margin: 10,
-  },
-  bigAvatar: {
-    width: 60,
-    height: 60,
-  },
-};
 
 class CompassLexBot extends Component {
   render() {
@@ -43,15 +32,17 @@ class CompassLexBot extends Component {
             <img src={PlusIcon} className="plus-icon"/>
             <img src={LexLogo} className="echo_image"/>
             <img src={PlusIcon} className="plus-icon"/>
-            <img src={SlackLogo} className="echo_image"/>
-            <img src={PlusIcon} className="plus-icon"/>
             <img src={UpsideLogo} className="echo_image"/>
+            <img src={PlusIcon} className="plus-icon"/>
+            <img src={SlackLogo} className="echo_image"/>
             <img src={EqualIcon} className="plus-icon"/>
           </div>
           <div className="title">
-            <h1>Introduce the Upside Lex Chat Bot: SKIP</h1>
-
-            <h3>Is a conversational bot and virtual assistant that will give you all the information you need on your upcoming trip, and can help you with any hurdle that might come your way</h3>
+            <h1 style={{'margin-top': '10px', 'margin-bottom': '10px', 'font-size': '250%'}}>Skip</h1>
+            <h1>Introducing the Upside Lex Chat Bot</h1>
+            <h4 style={{'margin-top': '100px'}}> Personal assistant to help you will any trip query or update you may need before you go or on your trip.
+              Just like our navigators, this is available 24/7 via chat or your Alexa so that you receive the best and most
+              convenient customer experience</h4>
           </div>
         </div>
 
@@ -60,7 +51,15 @@ class CompassLexBot extends Component {
         </div>
 
         <div className="intro-content">
+          <Overview/>
+        </div>
+
+        <div className="intro-content">
           <CommandIntents/>
+        </div>
+
+        <div className="intro-content">
+          <TripChangeRequest/>
         </div>
 
         <div className="intro-content">
@@ -68,12 +67,18 @@ class CompassLexBot extends Component {
         </div>
 
         <div className="intro-content">
-          < TripChangeRequest/>
+          <SlackCommand/>
+        </div>
+
+        <div style={{'margin': '100px'}}>
+          <img src={TheFuture} className="future-image-style"/>
         </div>
 
         <div className="intro-content">
-          < SlackCommand/>
+          <FutureGoal />
         </div>
+
+
       </div>
     );
   }

@@ -3,7 +3,8 @@ import Card, { CardHeader, CardMedia, CardContent, CardActions } from 'material-
 import Button from 'material-ui/Button';
 
 
-import YourNextTrip from '../../../assets/Show_me_next_trip.png'
+import SlackLogo from '../../../assets/slackLogo.png'
+import SlackCommand from '../../../assets/slack_command.png'
 
 function CommandIntents() {
   return (
@@ -12,11 +13,9 @@ function CommandIntents() {
         <CardContent>
           <h1>Also We integrate our bot into Slack</h1>
           <h1>You can type and ask all the intents</h1>
-          <img src={YourNextTrip} />
+          <img src={SlackLogo} />
+          <img src={SlackCommand} />
         </CardContent>
-        <CardActions>
-          <Button dense>Learn More</Button>
-        </CardActions>
       </Card>
     </div>
   );

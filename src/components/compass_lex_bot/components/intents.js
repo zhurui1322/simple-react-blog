@@ -10,7 +10,7 @@ function CommandIntents() {
     <div>
       <Card>
         <CardContent>
-          <h1>You next Upside Travel Detail</h1>
+          <h1>Trip assistance</h1>
           <li>when will my next trip departure</li>
           <li>What is the status on my upcoming flight</li>
           <li>What is the status of my next flight</li>
@@ -23,9 +23,6 @@ function CommandIntents() {
           <li>how long will take to visit White House</li>
           <img src={YourNextTrip} />
         </CardContent>
-        <CardActions>
-          <Button dense>Learn More</Button>
-        </CardActions>
       </Card>
     </div>
   );
