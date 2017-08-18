@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c54f8a72-272b-42ba-9cd1-53b1c64461b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/Jon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/futureCompass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/giftcard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/slack_command.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theFuture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/travelChange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/six_stars.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/compass_lex_bot/components/future_goal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/compass_lex_bot/components/overview.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/compass_lex_bot/components/development_fact.js" afterPath="$PROJECT_DIR$/src/components/compass_lex_bot/components/development_fact.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/compass_lex_bot/components/giftcardIntents.js" afterPath="$PROJECT_DIR$/src/components/compass_lex_bot/components/giftcardIntents.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/compass_lex_bot/components/intents.js" afterPath="$PROJECT_DIR$/src/components/compass_lex_bot/components/intents.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/compass_lex_bot/components/slack_command.js" afterPath="$PROJECT_DIR$/src/components/compass_lex_bot/components/slack_command.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/compass_lex_bot/components/tripRequest.js" afterPath="$PROJECT_DIR$/src/components/compass_lex_bot/components/tripRequest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/compass_lex_bot/index.js" afterPath="$PROJECT_DIR$/src/components/compass_lex_bot/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/compass_lex_bot/index.scss" afterPath="$PROJECT_DIR$/src/components/compass_lex_bot/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/compass_lex_bot/components/future_goal.js" afterPath="$PROJECT_DIR$/src/components/compass_lex_bot/components/future_goal.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,13 +54,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="future_goal.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="future_goal.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/compass_lex_bot/components/future_goal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            <state relative-caret-position="195">
+              <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <marker date="1503083279000" expanded="true" signature="323:761" ph="{...}" />
+                <marker date="1503083279000" expanded="true" signature="431:715" ph="&lt;h4/&gt;" />
               </folding>
             </state>
           </provider>
@@ -94,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overview.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="overview.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/compass_lex_bot/components/overview.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -226,9 +212,9 @@
         <option value="$PROJECT_DIR$/src/components/compass_lex_bot/components/development_fact.js" />
         <option value="$PROJECT_DIR$/src/components/compass_lex_bot/components/tripRequest.js" />
         <option value="$PROJECT_DIR$/src/components/compass_lex_bot/index.scss" />
-        <option value="$PROJECT_DIR$/src/components/compass_lex_bot/components/future_goal.js" />
         <option value="$PROJECT_DIR$/src/components/compass_lex_bot/index.js" />
         <option value="$PROJECT_DIR$/src/components/compass_lex_bot/components/overview.js" />
+        <option value="$PROJECT_DIR$/src/components/compass_lex_bot/components/future_goal.js" />
       </list>
     </option>
   </component>
@@ -615,12 +601,12 @@
       <workItem from="1502041126939" duration="11362000" />
       <workItem from="1502642644573" duration="5243000" />
       <workItem from="1502743750757" duration="19693000" />
-      <workItem from="1503034503796" duration="24841000" />
+      <workItem from="1503034503796" duration="25352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73902000" />
+    <option name="totallyTimeSpent" value="74413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="0" />
@@ -1057,22 +1043,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/compass_lex_bot/components/future_goal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/compass_lex_bot/components/overview.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/compass_lex_bot/components/future_goal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1503083279000" expanded="true" signature="323:761" ph="{...}" />
+            <marker date="1503083279000" expanded="true" signature="431:715" ph="&lt;h4/&gt;" />
           </folding>
         </state>
       </provider>
