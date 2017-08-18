@@ -10,7 +10,6 @@ function FutureGoal() {
   return (
     <div>
       <h4>App + Compass Integaration</h4>
-      <h4>Show screen shot here</h4>
       <h4>Push Notifications / Server Sent Trip Updates</h4>
       <h4>More Channels Coming (Facebook, SMS, Google Home)</h4>
       <h4>Maybe show more images here</h4>
